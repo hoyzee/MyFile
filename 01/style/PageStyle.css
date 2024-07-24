@@ -1,0 +1,113 @@
+body{
+    background-color: brown;
+}
+h1{
+    color:aqua;
+    background-color: black;
+}
+/* h4{
+    background-color: yellow;
+    color:blue;
+}
+h5{
+    background-color: yellow;
+    color:blue;
+}
+h6{
+    background-color: yellow;
+    color:blue;
+} */
+h4,h5,h6{
+    background-color: yellow;
+    color: black;
+}
+h4{
+    text-align: center;
+}
+h5{
+    text-align: right;
+}
+h6{
+    border: 2px solid black;
+}
+/* h1{
+    color:rgb(115, 83, 233);
+    background-color: black;
+} перезаписується той що знизу*/
+span{
+    color: white;
+    font-size: 20px;
+}
+p{
+    color: chocolate;
+    background-color: black;
+}
+p span{
+    color: red;
+}
+#super{
+    color: darkblue;
+}
+body span{
+    color:white;
+}
+.text-card{
+    background-color: wheat;
+    color: black;
+    border: 4px solid black;
+    padding: 50px;
+}
+.big-text{
+    font-size: 24px;
+}
+.text-card.big-text{
+    background-color: white;
+}
+div.text-card{
+    background-color: red;
+    color: black;
+}
+.text-card span{
+    color: white;
+}
+/* "*" виберає всі елементи  */
+/* *{
+    text-decoration: underline;
+} */
+ul li:first-child{
+    background-color: blue;
+}
+ul li:last-child{
+    background-color: yellow;
+}
+ul li:nth-child(5){
+    background-color: green;
+}
+ul li:nth-child(6){
+    background-color: gray;
+}
+a[href="https://example.org"]{
+    color: white;
+}
+.tex-property{
+    /* text-align: left; */
+    text-align: center;
+    /* text-align: right; */
+    font-size: 32px;
+    color: red;
+    /* line-height: 36px; відступ між рядками можна ще: line-height: 1.5; */
+    line-height: 36px;
+    /* color:#000000;  RGB   */
+    /* color:rgba(rgba(255, 0, 0, 0.805), rgba(10, 159, 10, 0), rgba(0, 0, 255, 0.678), alpha) */
+    background-color: white;
+    /* background: white; не бажано */
+    /* border: 40px solid green; */
+    /* border: 40px dashed green; */
+    /* border: 40px double green; */
+    border: 40px solid green;
+}
+
+
+
+
+
